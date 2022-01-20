@@ -733,5 +733,5 @@ jobs:
         .\releng\deps.py roll sdk windows-any
         New-Item build\tmp-windows -ItemType Directory -ea 0
         python .\releng\generate-version-header.py build\tmp-windows\frida-version.h
-        msbuild frida.sln /p:Configuration=Release /p:Platform=x64
-#
+        #msbuild frida.sln /p:Configuration=Release /p:Platform=x64
+
