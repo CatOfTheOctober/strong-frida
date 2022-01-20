@@ -694,7 +694,7 @@ jobs:
         make gumjs-macos
         make core-ios
         make gum-ios
-        #make gumjs-ios
+        make gumjs-ios
 
   windows_build:
     runs-on: windows-latest
