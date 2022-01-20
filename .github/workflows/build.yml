@@ -651,7 +651,7 @@ jobs:
         asset_name: 'frida-gumjs-devkit-${{ needs.release.outputs.frida_version }}-linux-x86_64.tar.xz'
         asset_content_type: application/octet-stream
 
-  macos_build:
+  #macos_build:
     runs-on: macOS-10.15
     needs: release
 
