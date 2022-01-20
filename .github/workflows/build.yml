@@ -1,9 +1,7 @@
-name: strong-frida build
+name: strongR-frida
 
-on:
-  push:
-    paths:
-    - VERSION
+on: 
+  workflow_dispatch:
 
 jobs:
   release:
